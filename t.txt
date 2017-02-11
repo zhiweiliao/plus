@@ -1,0 +1,8 @@
+npm install http-server -g
+http-server "C:\Users\zliao\Documents\Portfolio\2017\web"
+127.0.0.1:8080
+
+
+2C3E50 dark blue
+
+18BC9C green

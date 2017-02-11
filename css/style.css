@@ -1,0 +1,53 @@
+body {
+    background-color: #eee;
+}
+
+ 
+ 
+.homeIcon {
+    position: fixed;
+    top: 12.5px;
+    left: 30px;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    float: left;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #111;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-brand {
+    position: absolute;
+    font-size: 24px;
+    left: 75px;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: red;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+     color: red;
+}
+
+.navbar-default {
+    background-color: #eee;
+    border-color: #eee;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+
+    background-color: skyblue;
+}
+
+.list-inline>li{
+ padding: 0px;
+}
