@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Z Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Zhiwei Liao's ideas on Material Systems and Processes">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <script type="text/javascript">
+    window._wpemojiSettings = {
+        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/",
+        "ext": ".png",
+        "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/",
+        "svgExt": ".svg",
+        "source": {
+            "concatemoji": "js\/wp-emoji-release.min.js?ver=4.7.2"
+        }
+    };
+    ! function(a, b, c) {
+        function d(a) {
+            var b, c, d, e, f = String.fromCharCode;
+            if (!k || !k.fillText) return !1;
+            switch (k.clearRect(0, 0, j.width, j.height), k.textBaseline = "top", k.font = "600 32px Arial", a) {
+                case "flag":
+                    return k.fillText(f(55356, 56826, 55356, 56819), 0, 0), !(j.toDataURL().length < 3e3) && (k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57331, 65039, 8205, 55356, 57096), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57331, 55356, 57096), 0, 0), c = j.toDataURL(), b !== c);
+                case "emoji4":
+                    return k.fillText(f(55357, 56425, 55356, 57341, 8205, 55357, 56507), 0, 0), d = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55357, 56425, 55356, 57341, 55357, 56507), 0, 0), e = j.toDataURL(), d !== e
+            }
+            return !1
+        }
+
+        function e(a) {
+            var c = b.createElement("script");
+            c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+        }
+        var f, g, h, i, j = b.createElement("canvas"),
+            k = j.getContext && j.getContext("2d");
+        for (i = Array("flag", "emoji4"), c.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, h = 0; h < i.length; h++) c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]);
+        c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+            c.DOMReady = !0
+        }, c.supports.everything || (g = function() {
+            c.readyCallback()
+        }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function() {
+            "complete" === b.readyState && c.readyCallback()
+        })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+    }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 .07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+    </style>
+
+    
+    <link rel='https://api.w.org/' href='http://XXX' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://allenkaufmann.de/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://allenkaufmann.de/wp-includes/wlwmanifest.xml" />  
+    <meta name="generator" content="WordPress 4.7.2" />
+</head>
+
+<body class="home blog">
+    <div class="wrap fade out">
+        <nav id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </nav>
+        <div class="overlay">
+            <div class="menu">
+                <div class="gradient"></div>
+            </div>
+            <div class="second-menu">
+                <ul>
+                    <li><a href="http://allenkaufmann.de/impressum" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="panel panel1 home" data-section-name="home">
+            <div class="inner">
+                <div class="logo">
+                    <a href="http://allenkaufmann.de"><h1>LIAO <span>STUDIO</span></h1></a>
+                    <div class="address">1001 Gayley Ave.</br>Los Angeles</br><a href="mailto:zwliao@gmail.com">zwliao@gmail.com</a></div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel2" data-section-name="ryotei">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Knot Making</span><span class="place">Buffalo, NY</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="img/knot_1.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/DSC_2575-copy_-1108x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/002-1198x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/001-1238x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/DSC_2527__-712x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Toiletten-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel3" data-section-name="holyghost-flagship-store">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">HolyGhost Flagship Store</span><span class="place">München</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/MG_7760-533x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/MG_7774-533x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/MG_7683-533x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/IMG_5901-Kopie-1067x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/MG_7655-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/MG_7668-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/image-Kopie-709x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel4" data-section-name="ice-sheets-wallstrasse-apartment">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Ice Sheets &#8211; Wallstrasse Apartment</span><span class="place">Berlin, Kreuzberg</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/2-Berlin_Apt-2-Kopie-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/3-Berlin_Apt-6-1211x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Schnitt-Grundriss-1-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/G00-600x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/1-Berlin_Apt-8-Kopie-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/6-Berlin_Apt-4-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/7-Berlin_Apt-7-Kopie-1201x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel5" data-section-name="pacifico-restaurant">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Pacifico Restaurant</span><span class="place">Berlin, Kreuzberg</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/01-1-567x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/02-1-471x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/04-1-556x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/03-1-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/05-1-1285x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel6" data-section-name="strelitzer-apartment">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Strelitzer Apartment</span><span class="place">Berlin, Mitte</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/01-1199x800.jpg" alt="NU Restaurant" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/02-1220x800.jpg" alt="NU Restaurant" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/03-1199x800.jpg" alt="NU Restaurant" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/04-1238x800.jpg" alt="NU Restaurant" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/05-534x800.jpg" alt="NU Restaurant" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/06-534x800.jpg" alt="NU Restaurant" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel7" data-section-name="parker-bowles">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Parker Bowles</span><span class="place">Berlin, Kreuzberg</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Paker-bowl-7-1183x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Paker-bowl-2-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Paker-bowl-3-1126x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Paker-bowl-4-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Paker-bowl-14-564x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel8" data-section-name="nu-restaurant">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">NU Restaurant</span><span class="place">Berlin, Mitte</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/00-1.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/05-2.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/06-2-1196x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/NU-10-1265x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/NU-8-534x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/NU-12-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/08-1-533x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel9" data-section-name="nuport-cafe">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">NuPort Cafe</span><span class="place">Berlin, Mitte</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/02-2-689x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/01-2-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/00-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel10" data-section-name="atelier-roof-top">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Atelier, Roof Top</span><span class="place">Berlin, Kreuzberg</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Roof-top-1-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Roof-top-3-1194x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Roof-top-4-534x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Roof-top-5-534x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel11" data-section-name="weekend-event-space">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Weekend Event Space</span><span class="place">Berlin, Alexanderplatz</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/NightClub-9-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/NightClub-2-1199x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/NightClub-5-1285x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel12" data-section-name="dwarfed-dead-cherry-tree">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Dwarfed Dead Cherry Tree</span><span class="place">Upstate New York</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/11-Kopie-576x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/03-Kopie.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/01-3-600x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/04-4-600x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/08-1067x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/09-1067x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/07-600x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/10-1067x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/12-1067x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/00-Kopie-428x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel13" data-section-name="office">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Office am Moritzplatz</span><span class="place">Berlin, Kreuzberg</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/GIF_small.gif" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Office_Berlin-1-1194x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Office_Berlin-3_-Kopie-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Office_Berlin-2-1222x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="panel panel14" data-section-name="dado-shelf">
+            <div class="inner">
+                <div class="project-title">
+                    <h2><span class="title">Dado Shelf</span><span class="place">New York and Berlin</span></h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- mobile detect -->
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/Diagram_DADO_KONZEPT_m2-Kopie-1200x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/02-Kopie.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/dado-feature-detail-Kopie-840x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/DADO-SKETCH-1243x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/04-3-1067x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-lazy" data-src="http://allenkaufmann.de/wp-content/uploads/2016/10/01-4-649x800.jpg" alt="" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide extra"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/nprogress.js"></script>
+        <script src="js/swiper
+.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.scrollify.js"></script>
+        <script src="js/main.js"></script>
+        <script type='text/javascript' src='js/wp-embed.min.js?ver=4.7.2'></script>
+    </div>
+    <!--/wrap  -->
+</body>
+
+</html>

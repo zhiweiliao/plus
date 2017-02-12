@@ -1,0 +1,38 @@
+<p><strong>Radial</strong> progressive blur</p>
+<div class="effet">
+    <img src="http://css3create.com/squelettes/images/articles/flou-localise-1.jpg" alt="" />
+    <img class="filtre filtre--r" src="http://css3create.com/squelettes/images/articles/flou-localise-1.jpg" alt="" />
+</div>
+<p><strong>Linear</strong> progressive blur</p>
+<div class="effet">
+    <img src="http://css3create.com/squelettes/images/articles/flou-localise-2.jpg" alt="" />
+    <img class="filtre filtre--l" src="http://css3create.com/squelettes/images/articles/flou-localise-2.jpg" alt="" />
+</div>
+<p>Hover over images to see without blur</p>
+<p>Next demo: <a href="http://codepen.io/iamvdo/pen/djEBu" target="_blank">iOS 7 background blur with CSS</a></p>
+
+<svg height="0">
+    <defs>
+        <mask id="mask-radial">
+            <rect width="400" height="300" fill="url(#g1)"></rect>
+            <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+                <stop stop-color="black" offset="50%" />
+                <stop stop-color="white" offset="110%" />
+            </radialGradient>
+        </mask>
+        <mask id="mask-linear">
+            <rect width="400" height="300" fill="url(#l1)"></rect>
+            <linearGradient id="l1" x1="0" y1="0" x2="0" y2="1">
+                <stop stop-color="white" offset="0%" />
+                <stop stop-color="black" offset="30%" />
+                <stop stop-color="white" offset="100%" />
+            </linearGradient>
+        </mask>
+        <filter id="filtre1">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+        </filter>
+        <filter id="filtre2">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+        </filter>
+    </defs>
+</svg>

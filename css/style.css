@@ -2,7 +2,9 @@ body {
     background-color: #eee;
 }
 
- 
+ li{
+    font-size: 11px;
+ }
  
 .homeIcon {
     position: fixed;
@@ -23,16 +25,17 @@ body {
 
 .navbar-default .navbar-brand {
     position: absolute;
-    font-size: 24px;
+    font-size: 20px;
     left: 75px;
 }
 
 .navbar-default .navbar-brand:hover{
-  color: red;
+  color: #444;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-     color: red;
+     color: #444;
+     text-decoration: underline;
 }
 
 .navbar-default {
@@ -43,11 +46,31 @@ body {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: white;
+    color: #111;
 
-    background-color: skyblue;
+    background-color: #eee;
+    text-decoration: underline;
 }
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 10px 10px;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+
 
 .list-inline>li{
  padding: 0px;
+}
+
+#logo{
+     width: 200px; 
+     height: 200px;
 }

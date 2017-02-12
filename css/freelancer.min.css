@@ -11,12 +11,10 @@ body {
 }
 
 p {
-    font-size: 10px
+    font-size: 11px
 }
 
-span{
-	 font-size: 10px
-}
+ 
 
 p.small {
     font-size: 9px
@@ -90,7 +88,7 @@ hr.star-primary:after {
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-nav li a,
 header {
-    color: #eee
+    color: #111
 }
 
 .img-centered {
@@ -98,19 +96,23 @@ header {
 }
 
 header {
+    padding:50px;
     text-align: center;
 }
 
 header .container {
-    position: relative;
-    z-index: 2;
-    background-image: radial-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 1)), url(../img/villa/3.jpg);
-    background-position: center center;
+    position: static;
+    z-index:2;
+    background-image:  /*radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../img/9900/2.png) */;
+ 
+    background-position: center bottom;
     background-size: cover;
     width: 100%;
+   
     min-height: auto;
-    padding: 0px;
-}
+    padding: 0px 0px 0px 0px;
+    top:0px;
+ }
 
 header img {
     display: block;
@@ -130,7 +132,7 @@ header .intro-text .skills {
 
 @media (min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px
     }
     header .intro-text .name {
@@ -206,7 +208,8 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 25px 0
+    padding: 25px 0;
+    min-height:600px;
 }
 
 section h2 {
@@ -220,41 +223,43 @@ section.success {
 
 @media (max-width:767px) {
     section {
-        padding: 25px 0
+        padding: 0px 0
     }
     section.first {
         padding-top: 25px
     }
 }
 
-#portfolio .portfolio-item {
+.portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0
 }
 
-#portfolio .portfolio-item .portfolio-link {
+.portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+.portfolio .portfolio-item .portfolio-link .caption {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
+ 
     transition: all ease .5s;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1
+.portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+        
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+.portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     width: 100%;
     height: 20px;
@@ -272,22 +277,22 @@ section.success {
     height: 50px
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+.portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+.portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+.portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0
 }
 
-#portfolio * {
+.portfolio * {
     z-index: 2
 }
 
 @media (min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px
+    .portfolio .portfolio-item {
+        margin: 00px 0 30px
     }
 }
 
@@ -549,7 +554,7 @@ fieldset[disabled] .btn-success:hover {
     -webkit-animation-name: plus;
     -webkit-animation-duration: 0.5s;
     animation-name: plus;
-    animation-duration: 3s;
+    animation-duration: 0.5s;
 }
 
 @-webkit-keyframes plus {
