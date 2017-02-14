@@ -7,12 +7,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    background-color:  transparent;;
+    background-color: transparent;
+    ;
 }
 
 p {
     /*   font-size: 10px */
-
 }
 
 p.small {
@@ -25,7 +25,7 @@ a:active,
 a:focus,
 a:hover {
     color: #111;
-    outline: 1; 
+    outline: 1;
     background-color: transparent;
     text-decoration: none;
 }
@@ -62,9 +62,7 @@ hr.star-primary:after {
 }
 
 .navbar-custom,
-header .intro-text .name {
-
-}
+header .intro-text .name {}
 
 hr.star-light {
     border-color: #111
@@ -92,7 +90,6 @@ hr.star-primary:after {
 .navbar-custom .navbar-nav li a,
 header {
     color: #111
-
 }
 
 .img-centered {
@@ -100,8 +97,8 @@ header {
 }
 
 header {
-    padding: 100px;
-    text-align: center;
+    padding: 100px 0 100px;
+    text-align: left;
     /*   font-family: 'Julius Sans One', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
@@ -109,8 +106,7 @@ header {
 header .container {
     position: static;
     z-index: 2;
-    background-image: /*radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../img/9900/2.png) */
-    ;
+    background-image: radial-gradient(rgba(238, 238, 238, 0),rgba(238, 238, 238, .6),  rgba(238, 238, 238, .95), rgba(238, 238, 238, 1)), url(../img/9900/2.png);
     background-position: center bottom;
     background-size: cover;
     width: 100%;
@@ -121,7 +117,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 50px 0 50px;
 }
 
 header .intro-text .name {
@@ -143,11 +139,8 @@ header .intro-text .skills {
         text-align: left;
         font-size: 3em
     }
-    header .intro-text .skills {
-        text-align: left;
-        font-size: 1.5em
-    }
-}
+ 
+ 
 
 .navbar-custom {
     font-weight: 700;
@@ -213,11 +206,6 @@ header .intro-text .skills {
     }
 }
 
-section {
-    padding: 25px 0;
-    min-height: 600px;
-}
-
 section h2 {
     margin: 0;
     font-size: 3em
@@ -237,12 +225,12 @@ section.success {
 }
 
 #work .portfolio-item {
-    margin: 0 0 15px;
+    margin: 0 0 1.2em;
     right: 0;
 }
 
 #research .portfolio-item {
-    margin: 0 0 15px;
+    margin: 0 0 1.2em;
     right: 0;
 }
 
@@ -555,11 +543,10 @@ fieldset[disabled] .btn-success:hover {
     position: fixed;
     width: 25px;
     height: 25px;
-   left: 30px;
-    top: 12.5px; 
+    left: 30px;
+    top: 12.5px;
     vertical-align: middle;
     cursor: pointer;
-  
     transform: rotate(45deg)
 }
 

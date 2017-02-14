@@ -2,9 +2,7 @@ body {
     background-color: #eee;
 }
 
-li {
-    font-logoize: 11px;
-}
+
 
 .homeIcon {
     position: fixed;
@@ -21,8 +19,6 @@ li {
     color: #111;
     font-size: 18px;
     text-transform: uppercase;
-
-
 }
 
 .navbar-default .navbar-brand {
@@ -33,8 +29,9 @@ li {
 
 .navbar-default .navbar-brand:hover {
     color: #444;
-      background-color: transparent;
+    background-color: transparent;
 }
+
 .navbar-default .navbar-brand:focus {
     color: #111;
 }
@@ -42,7 +39,7 @@ li {
 .navbar-default .navbar-nav>li>a:hover {
     color: #555;
     text-decoration: underline;
-      background-color: transparent;
+    background-color: transparent;
 }
 
 .navbar-default {
@@ -76,25 +73,65 @@ li {
 }
 
 #logo {
-    width: 25%;
+    width: 80%;
     height: auto;
 }
 
-.portfolio-link:focus, .portfolio-link:active {
+.portfolio-link:focus,
+.portfolio-link:active {
     opacity: .5;
     margin-top: 0em;
     margin-bottom: 0em;
-    outline:none;
+    outline: none;
 }
- 
- .fixed{
-    position:fixed;
-    top:50px;
- }
 
- .fixedBrand{
+.fixed {
+    position: fixed;
+    top: 50px;
+    padding:30px 8px ;
+}
+
+.fixedBrand {
     font-size: 1.2em;
-    position:fixed;
-    top:15px;
+    position: fixed;
+    top: 15px;
+    padding:30px 8px ;
+}
 
- }
+#z{
+    padding: 0;
+    margin:0 0 15px;
+}
+
+#work {
+    padding: 30px 0 0
+}
+
+#research {
+    padding: 30px 0 0
+}
+
+#about{
+    padding: 30px 0 0
+}
+
+.nav>li>a {
+    padding: 0px 0px;
+
+}
+
+h4{
+    margin:0 0 1em;
+    font-size: 18px;
+}
+
+p{
+    margin:0 0 .1em;
+}
+
+
+.portfolio-item{
+padding-bottom: 18px;
+}
+
+ 
