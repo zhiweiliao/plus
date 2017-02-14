@@ -134,4 +134,9 @@ p{
 padding-bottom: 18px;
 }
 
+.modal-body {
+    position: relative;
+    padding: 50px;
+}
+
  
