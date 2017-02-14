@@ -19,6 +19,7 @@
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,197 +28,262 @@
     <![endif]-->
 </head>
 
-<body id="page-top" class="index">
+<body>
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
-                </button>
-                <!-- **********************************************************************************************************************logo -->
-                <g>
-                    <a class="" href="#"><img class="homeIcon" src="img/view_thumb.svg" alt=""> </a>
-                    <a class="navbar-brand" href="#">Z+ Workshop</a>
-                </g>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <nav class="fixedBrand">
+                    <!-- <a class="" href="#"><img class="homeIcon" src="img/view_thumb.png" alt=""> </a> -->
+                    <a class="" href="#">Z+ Workshop</a>
+                </nav>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#work">Work</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#research">Research</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!-- ***********************************************************************************************************************Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 contentHeader">
-                    <img id="logo" src="img/view.svg" alt="">
-                    <div class="intro-text">
-                        <span class="name">Z+ Workshop</span>
-                        <p class="skills">Residential Design + Custom Making</p>
-                    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="fixed" id="">
+                    <ul class="nav navbar-default nav-stacked">
+                        <li class="page-scroll">
+                            <a href="#work">Work</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#research">Research</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+    <!-- ***********************************************************************************************************************Header -->
+    <!-- <header>
+         <div class="container">
+            <div class="row">
+                <div class="col-xs-offset-4 col-xs-8">
+                  <img class="navbar-brand" id="logo" src="img/view.svg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-4 col-xs-8 intro-text">
+                    <p class="name"></p>
+                    <p class="skills">Residential Design + Custom Making</p>
+                </div> 
+            </div>
+    </header> -->
     <!--*********************************************************************************************************** Portfolio Grid Section -->
     <section id="work" class="portfolio">
         <div class="container">
             <div class="row">
                 <!--*********************************************************************************************************1-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <h4>Apple Flagship Store</h4>
+                        <div class="subtext">
+                            <p>Kunming</p>
+                            <p>2017</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Apple</span>
-                            </div>
                         </div>
                         <img src="img/apple/2.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************2-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <h4>Villa K</h4>
+                        <div class="subtext">
+                            <p>Berverly Hills</p>
+                            <p>2006</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Villa K</span>
-                            </div>
                         </div>
                         <img src="img/villa/4.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************3-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <h4>Villa F</h4>
+                        <div class="subtext">
+                            <p>Berverly Hills</p>
+                            <p>2007</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Villa F</span>
-                            </div>
                         </div>
                         <img src="img/foothill/1.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************4-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <h4>Gagosian Gallery</h4>
+                        <div class="subtext">
+                            <p>Berverly Hills</p>
+                            <p>2008</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Gagosian Gallery</span>
-                            </div>
                         </div>
                         <img src="img/gagosian/1.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************5-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <h4>9900 Wilshire</h4>
+                        <div class="subtext">
+                            <p>Berverly Hills</p>
+                            <p>2006-2010</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">9900 Wilshire</span>
-                            </div>
                         </div>
                         <img src="img/9900/1.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************6-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <h4>UCLA ELW Building</h4>
+                        <div class="subtext">
+                            <p>Westwood</p>
+                            <p>2009-2012</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">UCLA ELW Building</span>
-                            </div>
                         </div>
                         <img src="img/ucla/1.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
-            </div>
-        </div>
+                <!--******************************************************************************************************* -->
     </section>
     <!-- About Section -->
     <section id="research" class="portfolio">
         <div class="container">
             <div class="row">
                 <!--*******************************************************************************************************7-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <h4>Robotics Fabrication</h4>
+                        <div class="subtext">
+                            <p>Harvard GSD</p>
+                            <p>2015</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Robotics Fabrication</span>
-                            </div>
                         </div>
                         <img src="img/robot/1.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************8-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <h4>Concrete knot</h4>
+                        <div class="subtext">
+                            <p>SUNY Buffalo</p>
+                            <p>2005</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Concrete knot</span>
-                            </div>
                         </div>
                         <img src="img/knot/5.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************9-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <h4>Porous Concrete</h4>
+                        <div class="subtext">
+                            <p>Harvard GSD</p>
+                            <p>2015</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Porous Concrete</span>
-                            </div>
                         </div>
                         <img src="img/hydrogel/2.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
-            </div>
-            <!--*********************************************************************************************************10-->
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <!--*********************************************************************************************************10-->
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <h4>Ceramic 3D Printing</h4>
+                        <div class="subtext">
+                            <p>Harvard GSD</p>
+                            <p>2016</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Ceramic 3D Printing</span>
-                            </div>
                         </div>
                         <img src="img/print/1.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************11-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <h4>Collective Visual System</h4>
+                        <div class="subtext">
+                            <p>Harvard GSD</p>
+                            <p>2017</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Collective Visual System</span>
-                            </div>
                         </div>
                         <img src="img/cvs/1.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <!--*********************************************************************************************************12-->
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <h4>Material Distribution</h4>
+                        <div class="subtext">
+                            <p>Harvard GSD</p>
+                            <p>2016</p>
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-xs-4 portfolio-item ">
                     <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                <span class="name">Material Distribution</span>
-                            </div>
                         </div>
                         <img src="img/distribution/1.png" class="img-responsive" alt="">
                     </a>
@@ -231,7 +297,6 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                
                 </div>
                 <div class="col-md-4"></div>
             </div>
