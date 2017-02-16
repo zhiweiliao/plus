@@ -104,15 +104,16 @@
                             }
                             
                             header .container {
-                                position: static;
+                                position: relative;
                                 z-index: 2;
-                                background-image: radial-gradient(rgba(238, 238, 238, 0), rgba(238, 238, 238, .6), rgba(238, 238, 238, .95), rgba(238, 238, 238, 1)), url(../img/9900/2.png);
-                                background-position: center bottom;
+                                background-image: radial-gradient(rgba(238, 238, 238, 0),rgba(238, 238, 238, 0), rgba(238, 238, 238, .6), rgba(238, 238, 238, 0.9), rgba(238, 238, 238, 1), rgba(238, 238, 238, 1)), url(../img/9900/2.png);
+                                background-position: center center;
                                 background-size: cover;
                                 width: 100%;
-                                min-height: auto;
+                                min-height: 100%;
                                 padding: 0px 0px 0px 0px;
                                 top: 0px;
+                                overflow:hidden;
                             }
                             
                             header img {

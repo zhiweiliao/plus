@@ -14,7 +14,6 @@ body {
     float: left;
 }
  
- 
 
 
 .navbar-default .navbar-brand,
@@ -90,34 +89,40 @@ body {
 
 .fixed {
     font-size: 1em;
+    opacity:0.5;
     position: fixed;
     top: 50px;
-    margin:30px 8px ;
+    margin:0px 15px ;
+  text-transform: uppercase;
 }
 
 .fixedBrand {
-    font-size: 1.2em;
+
+    font-size: 1em;
     position: fixed;
     top: 15px;
-    margin:30px 8px ;
+    margin:15px 15px ;
+      text-transform: uppercase;
 }
 
 #z{
     padding: 0;
-    margin:0 0 15px;
+    margin:0 0 65px;
     background-color: transparent;
 }
 
 #work {
-    padding: 50px 0 0
+ 
+    padding: 0px 0 0;
 }
 
 #research {
-    padding: 50px 0 0
+    margin: 65px 0 0;
 }
 
 #about{
-    padding: 50px 0 0
+    margin: 65px 0 0;
+ 
 }
 
 .nav>li>a {
@@ -126,7 +131,7 @@ body {
 }
 
 h4{
-    margin:0 0 0.2em;
+    margin:0 0 0;
     font-size: 18px;
 }
 
@@ -162,4 +167,10 @@ padding:0 .5em 1em 0em;
      font-size:14px; 
      color:#aaa;
 }
+
+.nav-stacked>li+li {
+    margin-top: 0px;
+ 
+}
+
 
