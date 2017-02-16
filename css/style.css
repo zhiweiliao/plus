@@ -109,15 +109,15 @@ body {
 }
 
 #work {
-    padding: 30px 0 0
+    padding: 50px 0 0
 }
 
 #research {
-    padding: 30px 0 0
+    padding: 50px 0 0
 }
 
 #about{
-    padding: 30px 0 0
+    padding: 50px 0 0
 }
 
 .nav>li>a {
@@ -126,17 +126,18 @@ body {
 }
 
 h4{
-    margin:0 0 1em;
+    margin:0 0 0.2em;
     font-size: 18px;
 }
 
 p{
-    margin:0 0 .1em;
+    margin:0 0 0em;
 }
 
 
 .portfolio-item{
-padding-bottom: 18px;
+padding:0 .5em 1em 0em;
+
 }
 
 .modal-body {
@@ -151,4 +152,14 @@ padding-bottom: 18px;
    body { font-size: 1em; }
 
 } */
+
+.projectTitle{
+    font-size:14px;
+ 
+}
+
+.subtext{
+     font-size:14px; 
+     color:#aaa;
+}
 
