@@ -2,6 +2,13 @@ body {
     background-color: #eee;
 }
 
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+
 .homeIcon {
     position: fixed;
     top: 12.5px;
