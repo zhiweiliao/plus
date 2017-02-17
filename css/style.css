@@ -77,7 +77,7 @@ body {
 
 .portfolio-link:focus,
 .portfolio-link:active {
-    opacity: .5;
+    opacity: 1;
     margin-top: 0em;
     margin-bottom: 0em;
     outline: none;
@@ -89,24 +89,31 @@ body {
     opacity: 1;
     position: fixed;
     top: 50px;
-    margin: 0px -10px;
+    margin: 0px -5px;
     text-transform: uppercase;
     color: #fff;
 }
 
+.menu, 
+.menu.active {
 
-.menu:focus, .menu:active, .menu:hover {
+        background-color:transparent;
+}
 
-    
+.menu:focus, 
+.menu:active, 
+.menu:hover {
+ 
+    background-color:transparent;
     text-decoration:underline;
 }
 
 .fixedBrand {
-    font-size: 1.2em;
+    font-size: 1.15em;
     font-weight: 300;
     position: fixed;
     top: 15px;
-    margin: 0px -10px;
+    margin: 0px -5px;
     text-transform: uppercase;
 }
 
