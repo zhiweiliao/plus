@@ -156,11 +156,12 @@ p {
     padding: 0 .5em 1em 0em;
 }
 
+/*
 .modal-body {
     position: relative;
-    margin: 8.33% 8.33% 8.33% 33.33%;
+    margin:4% 0% 8.33% 0%;
     padding: 0px 0px;
-}
+} */
 
 
 /*
@@ -171,6 +172,7 @@ p {
 } */
 
 .projectTitle {
+
     font-weight: 500;
     font-size: 14px;
 }
@@ -183,4 +185,8 @@ p {
 
 .nav-stacked>li+li {
     margin-top: 0px;
+}
+
+.modal-body {
+    margin-top:40px;
 }
