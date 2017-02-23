@@ -93,7 +93,16 @@
                             }
                             
                             .img-centered {
-                                margin: 0 auto
+                                margin: 0 auto;
+                                max-height: 480px;
+                            }
+                            
+                            .text-centered {
+                                margin: 0 auto;
+                                width: 75%;
+                                min-height: 480px;
+                                text-align: center;
+                                vertical-align: center;
                             }
                             
                             header {
@@ -330,9 +339,9 @@
                                 border: none;
                                 /*    min-height: 100%; */
                                 padding: 15px 0;
-                                text-align: left;
+                                text-align: center;
                                 background-color: #eee;
-                                margin-top:0px;
+                                margin-top: 0px;
                             }
                             
                             .portfolio-modal .modal-content h2 {
@@ -346,8 +355,8 @@
                             
                             .portfolio-modal .modal-content .item-details {
                                 margin: 0px 0;
-                                font-weight:300;
-                                font-size:0.8em;
+                                font-weight: 300;
+                                font-size: 0.8em;
                             }
                             
                             .portfolio-modal .close-modal {
@@ -356,11 +365,10 @@
                                 height: 40px;
                                 background-color: transparent;
                                 top: 12.5px;
-                                 left: 25px; 
+                                left: 25px;
                                 cursor: pointer;
                                 transform: rotate(45deg);
                                 z-index: 99;
-
                             }
                             
                             .portfolio-modal .close-modal {
