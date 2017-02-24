@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- icon -->
@@ -20,6 +21,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:thin,light,regular,medium,bold,black发" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -570,6 +572,7 @@
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                             <!--   <li data-target="#carousel-example-generic" data-slide-to="3"></li> -->
                             </ol>
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
@@ -584,11 +587,6 @@
                                     <div class="carousel-caption">
                                         The roboic arm with the wire cuts the clay
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <p class="text-centered">
-                                        The intention of the project is to explore the possibilities of form-finding through an innovative fabrication technique, which is the combination of the robotic arm and the potter’s wheel. The hand manipulated processes of the potter’s wheel were abstracted into simpler movements, which could then be translated into the robotic manufacturing process. The robotic technology combined with digital scripting tools would then be used to expand the form-generation capabilities of the pottery-making process. This merging of techniques of the ‘old’ and the ‘new’ would not only introduce novelty in terms of forms but also lend towards a more mass-manufactured approach to the construction of ceramic forms.
-                                    </p>
                                 </div>
                                 <div class="item">
                                     <img src="img/robot/4.jpg" class="img-centered" alt="">
@@ -607,6 +605,10 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
+                        <br>
+                        <p class="text-centered">
+                            The intention of the project is to explore the possibilities of form-finding through an innovative fabrication technique, which is the combination of the robotic arm and the potter’s wheel. The hand manipulated processes of the potter’s wheel were abstracted into simpler movements, which could then be translated into the robotic manufacturing process. The robotic technology combined with digital scripting tools would then be used to expand the form-generation capabilities of the pottery-making process. This merging of techniques of the ‘old’ and the ‘new’ would not only introduce novelty in terms of forms but also lend towards a more mass-manufactured approach to the construction of ceramic forms.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -691,13 +693,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <p>Ceramic Morphologies</p>
                         <br>
-                        <img src="img/print/1.jpg" class="img-responsive img-centered" alt="">
-                        <br>
-                        <img src="img/print/4.png" class="img-responsive img-centered" alt="">
-                        <br>
-                        <img src="img/print/5.png" class="img-responsive img-centered" alt="">
-                        <br>
-                        <img src="img/print/6.png" class="img-responsive img-centered" alt="">
+                        <div class="swiper-slide"><img src="img/print/1.jpg" class="img-responsive img-centered" alt="">Slide 1</div>
+                        <div class="swiper-slide"><img src="img/print/4.png" class="img-responsive img-centered" alt="">Slide 2</div>
+                        <div class="swiper-slide"><img src="img/print/5.png" class="img-responsive img-centered" alt="">Slide 3</div>
+                        <div class="swiper-slide"><img src="img/print/6.png" class="img-responsive img-centered" alt="">Slide 4</div>
                         <p> </p>
                         <ul class="list-inline item-details">
                             <li><span>Lab:</span>
@@ -711,7 +710,7 @@
                             </li>
                         </ul>
                         <br>
-                        <div data-configid="1168196/44806246" style="width:848px; height:300px;" class="issuuembed"></div>
+                        <div data-configid="1168196/44806246" style="width:100%; height:300px;" class="issuuembed"></div>
                         <small>Design Development</small>
                         <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
                     </div>
@@ -789,5 +788,6 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
     <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+</body>
 
 </html>
