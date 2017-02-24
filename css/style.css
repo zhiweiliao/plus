@@ -91,7 +91,7 @@ body {
     top: 50px;
     margin: 0px -5px;
     text-transform: uppercase;
-    color: #fff;
+    color: #111;
 }
 
 .menu,
@@ -99,9 +99,9 @@ body {
     background-color: transparent;
 }
 
+.menu:hover,
 .menu:focus,
-.menu:active,
-.menu:hover {
+.menu:active {
     background-color: transparent;
     text-decoration: underline;
 }
@@ -186,18 +186,10 @@ p {
     margin-top: 40px;
 }
 
-
-
 .carousel-control.right {
- 
-  
-    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
- 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
 }
 
 .carousel-control.left {
- 
-  
-    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
- 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
 }
