@@ -2,6 +2,8 @@ body {
     background-color: #eee;
 }
 
+
+
 .homeIcon {
     position: fixed;
     top: 12.5px;
@@ -144,7 +146,10 @@ h4 {
 }
 
 p {
-    margin: 0 0 0em;
+    margin: 0 0 25px;
+    text-align:left;
+    font-family: 'Crimson Text', serif;
+    font-weight:400;
 }
 
 .portfolio-item {
@@ -188,8 +193,30 @@ p {
 
 .carousel-control.right {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
+    color:#eee;
+   
+    text-shadow: -2px 0 #111, 0 2px #111, 2px 0 #111, 0 -2px #111;
+    
 }
 
 .carousel-control.left {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
+      color:#eee;
+   text-shadow: -2px 0 #111, 0 2px #111, 2px 0 #111, 0 -2px #111;
 }
+
+
+.carousel {
+  max-height: 450px !important;
+  min-height: 450px;
+}
+
+#bootstrap-slider .carousel-inner .img-responsive {
+  max-height: 450px !important;
+  min-height: 450px;
+}
+
+.menu-back .container:first-child {
+  display: none;
+}
+ 
